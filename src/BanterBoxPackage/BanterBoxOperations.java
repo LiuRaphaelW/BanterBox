@@ -15,7 +15,7 @@ public class BanterBoxOperations {
 		if(usernames.size() ==0) {
 			return false;
 		}
-		for(int i = 0 ; i< usernames.size()l i++) {
+		for(int i = 0 ; i< usernames.size(); i++) {
 			if(usernames.get(i).equals(username)) {
 				return true;
 			}
